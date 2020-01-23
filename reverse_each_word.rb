@@ -8,7 +8,7 @@ def reverse_each_word(string)
   i += 1 
   end
 reversed_sentence = reversed_words.join(" ")
-reversed_sentence
+reversed_sentence.collect
 end
 
 p reverse_each_word("Hi there!")
