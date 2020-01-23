@@ -18,7 +18,7 @@ def reverse_each_word(string)
   
   separate_words.each do |word| word.reverse 
   end 
-  p separate_words
+  p separate_words.each
 end 
 
 reverse_each_word("Hi there!")
