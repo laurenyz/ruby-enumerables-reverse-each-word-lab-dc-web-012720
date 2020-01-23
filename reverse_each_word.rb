@@ -16,7 +16,7 @@
 def reverse_each_word(string)
   separate_words = string.split
   
-  (separate_words.each do |word| word.reverse).join
+  p reversed_words = separate_words.each do |word| word.reverse
   end 
   
 end 
