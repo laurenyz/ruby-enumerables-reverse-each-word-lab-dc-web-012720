@@ -15,5 +15,5 @@
 
 def reverse_each_word(string)
   separate_words = string.split
-  
+  separate_words.each = 
 end 
