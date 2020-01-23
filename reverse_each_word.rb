@@ -20,7 +20,7 @@ def reverse_each_word(string)
   separate_words.each do |word| 
     reversed_words << word.reverse
   end 
-  reversed_words
+  p reversed_words
 end 
 
 reverse_each_word("Hi there!")
