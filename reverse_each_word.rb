@@ -24,3 +24,13 @@
 # end 
 
 # reverse_each_word("Hi there!")
+
+def reverse_each_word(string)
+  separate_words = string.split
+  
+  reversed_words = separate_words.collect {|word| word.reverse}
+  
+  p reversed_words.join(" ")
+end 
+
+reverse_each_word("Hi there!")
