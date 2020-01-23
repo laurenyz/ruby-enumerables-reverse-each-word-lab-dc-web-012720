@@ -20,3 +20,5 @@ def reverse_each_word(string)
   end 
   p separate_words
 end 
+
+reverse_each_word("Hi there!")
