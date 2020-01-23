@@ -13,14 +13,14 @@
 
 # p reverse_each_word("Hi there!")
 
-def reverse_each_word(string)
-  separate_words = string.split
+# def reverse_each_word(string)
+#   separate_words = string.split
   
-  reversed_words = []
-  separate_words.each do |word| 
-    reversed_words << word.reverse
-  end 
-  p reversed_words.join(" ")
-end 
+#   reversed_words = []
+#   separate_words.each do |word| 
+#     reversed_words << word.reverse
+#   end 
+#   p reversed_words.join(" ")
+# end 
 
-reverse_each_word("Hi there!")
+# reverse_each_word("Hi there!")
