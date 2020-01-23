@@ -22,4 +22,4 @@ def reverse_each_word(string)
   
 end 
 
-reverse_each_word("Hi there!")
+p reverse_each_word("Hi there!")
