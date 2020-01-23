@@ -5,6 +5,7 @@ def reverse_each_word(string)
   reversed_words = []
   while i < separate_words.length 
   reversed_words << separate_words[i].reverse
+  i += 1 
   end
  reversed_words 
 end
